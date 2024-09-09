@@ -106,15 +106,11 @@ div button[type="submit"]:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* Centra el contenido verticalmente */
     align-items: center;
-    /* Centra el contenido horizontalmente */
     text-align: center;
-    /* Centra el texto dentro del contenedor */
     font-size: 100px;
-    /* Tamaño del título */
     color: #333;
-    /* Color del texto */
+
 }
 
 .content-wrapper-s1 p {
@@ -145,9 +141,8 @@ div button[type="submit"]:hover {
 }
 
 .buttons-s1 .joinfree {
-    background-color: none; /* Color de fondo azul */
-    color: black; /* Color del texto */
-    border:none;
+    background-color: none; 
+    color: black; 
 }
 
 
@@ -165,20 +160,20 @@ div button[type="submit"]:hover {
 }
 
 .content-wrapper-s2 img {
-    width: 200px; /* Ajusta el tamaño de la imagen según sea necesario */
-    margin-bottom: 50px; /* Espacio debajo de la imagen */
+    width: 200px; 
+    margin-bottom: 50px; 
 }
 
 
 .content-wrapper-s2 h1 {
-    font-size: 36px; /* Tamaño del título */
+    font-size: 36px; 
     background-color: rgba(255, 204, 53, 0.4);
     padding-right: 30px;
     padding-left: 30px;
     transform: skew(20deg,0deg);
-    color: #333; /* Color del texto */
-    margin: 0; /* Elimina el margen para asegurar un ajuste preciso */
-    font-style: italic; /* Estilo en cursiva para el título */
+    color: #333; 
+    margin: 0; 
+    font-style: italic; 
 }
 
 
