@@ -89,27 +89,19 @@ div button[type="submit"]:hover {
     border: 1px solid black;
 }
 
-/* Estilo para la sección principal */
-
 .content-wrapper-s1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* Centra el contenido verticalmente */
     align-items: center;
-    /* Centra el contenido horizontalmente */
     text-align: center;
     padding: 0;
-    /* Elimina el padding adicional */
     height: 100;
-    /* Usa toda la altura disponible */
     width: 100;
     background-color: rgba(232, 217, 217, 0.3);
-    /* Color de fondo para la caja de contenido */
 
 }
 
-/* Estilo del título */
 .content-wrapper-s1 h1 {
     display: flex;
     flex-direction: row;
@@ -125,7 +117,6 @@ div button[type="submit"]:hover {
     /* Color del texto */
 }
 
-/* Estilo del párrafo */
 .content-wrapper-s1 p {
     text-align: center;
     font-size: 25px;
@@ -135,54 +126,50 @@ div button[type="submit"]:hover {
     margin-left: 350px;
     margin-bottom: 30px;
     color: #666;
-    /* Color del texto */
 }
 
-/* Estilo de los enlaces como botones */
 .content-wrapper-s1 button {
     display: inline-block;
     flex-direction: row;
     padding: 20px 30px;
     margin: 30px;
-    /* Espacio entre los botones */
     font-size: 20px;
 
 }
 
-/* Estilo para el botón "See plans" */
 .buttons-s1 .seeplans {
-    background-color: #FB3B49; /* Color de fondo rojo */
+    background-color: #FB3B49; 
     border: none;
-    color: white; /* Color del texto */
-    box-shadow: 8px 8px 0 rgba(251, 59, 73, 0.2); /* Sombra */
+    color: white; 
+    box-shadow: 8px 8px 0 rgba(251, 59, 73, 0.2); 
 }
-/* Estilo para el botón "Join for free" */
+
 .buttons-s1 .joinfree {
     background-color: none; /* Color de fondo azul */
     color: black; /* Color del texto */
     border:none;
 }
 
-/* Estilo del contenedor del contenido */
+
 .content-wrapper-s2 {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centra el contenido verticalmente */
-    align-items: center; /* Centra el contenido horizontalmente */
-    text-align: center; /* Centra el texto dentro del contenedor */
-    background-color: none; /* Color de fondo amarillo con transparencia */
-    padding: 60px; /* Espaciado interno para el contenido */
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    background-color: none; 
+    padding: 60px; 
     width: 100;
-    max-width: 100%; /* Ancho máximo para limitar el contenido */
-    position: relative; /* Posicionamiento relativo para usar transformaciones */
+    max-width: 100%; 
+    position: relative;
 }
-/* Estilo de la imagen */
+
 .content-wrapper-s2 img {
     width: 200px; /* Ajusta el tamaño de la imagen según sea necesario */
     margin-bottom: 50px; /* Espacio debajo de la imagen */
 }
 
-/* Estilo del título */
+
 .content-wrapper-s2 h1 {
     font-size: 36px; /* Tamaño del título */
     background-color: rgba(255, 204, 53, 0.4);
@@ -194,59 +181,56 @@ div button[type="submit"]:hover {
     font-style: italic; /* Estilo en cursiva para el título */
 }
 
-/* Estilo del párrafo */
+
 .content-wrapper-s2 p {
-    font-size: 20px; /* Tamaño del texto en el párrafo */
+    font-size: 20px; 
     line-height: 1.5;
-    color: #666; /* Color del texto */
-    margin-top: 20px; /* Espacio encima del párrafo */
+    color: #666; 
+    margin-top: 20px; 
     margin-right: 290px;
     margin-left: 290px;
     margin-bottom: 30px;
 }
 
-
-/* Estilo para los contenedores de contenido */
 #section3 {
 display:flex;
 }
 .content-wrapper-s3 {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centra el contenido horizontalmente dentro de cada bloque */
-    text-align: center; /* Centra el texto dentro del contenedor */
-    width: 300px; /* Ancho fijo para cada bloque */
-    padding: 20px; /* Espaciado interno en los bloques */
-    margin: 20px; /* Espacio entre los bloques */
-    background-color: white; /* Color de fondo para cada bloque */
+    align-items: center; 
+    text-align: center; 
+    width: 300px; 
+    padding: 20px; 
+    margin: 20px; 
+    background-color: white; 
 }
 
-/* Estilo de la imagen */
 .content-wrapper-s3 img {
-    width: 30px; /* Ajusta el tamaño de la imagen según sea necesario */
-    margin-bottom: 0px; /* Espacio debajo de la imagen */
+    width: 30px; 
+    margin-bottom: 0px; 
     margin-right:250px;
 }
 
-/* Estilo del encabezado */
+
 .content-wrapper-s3 h3 {
-    color: #ED1C24; /* Color del texto */
-    margin: 10px 0; /* Espacio arriba y abajo del encabezado */
-    font-size: 24px; /* Tamaño del texto del encabezado */
+    color: #ED1C24; 
+    margin: 10px 0; 
+    font-size: 24px;
 }
 
-/* Estilo del párrafo */
+
 .content-wrapper-s3 p {
-    font-size: 16px; /* Tamaño del texto en el párrafo */
+    font-size: 16px; 
     line-height: 1.5;
-    color: #666; /* Color del texto */
-    margin-bottom: 20px; /* Espacio debajo del párrafo */
+    color: #666; 
+    margin-bottom: 20px; 
 }
 
-/* Estilo del enlace */
+
 .buttons-s3 {
     display: flex;
-    justify-content: center; /* Centra el botón horizontalmente */
+    justify-content: center; 
     margin-top: 30px;
     margin-bottom: 80px;
 }
@@ -257,9 +241,9 @@ display:flex;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 20px;
-    background-color: black; /* Color de fondo rojo */
+    background-color: black; 
     border: none;
-    color: white; /* Color del texto */
-    box-shadow: 8px 8px 0 rgba(161, 158, 158, 0.2); /* Sombra */
+    color: white; 
+    box-shadow: 8px 8px 0 rgba(161, 158, 158, 0.2); 
 }
 
